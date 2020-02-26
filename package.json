@@ -1,0 +1,7 @@
+{
+  "name": "generic-css",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.2.1"
+  }
+}
