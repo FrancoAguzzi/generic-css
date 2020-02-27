@@ -1,4 +1,42 @@
-$header-background: #f2e863;
-$header-color: #f2a14f;
-$header-color-hover: #ee8418;
-$header-searchBar: #eaf2e3;
+// Base Variables
+// Naming pattern: priority-element-property-state
+
+// #1 Primary
+
+// Div Container
+$primary-div-width: 80%;
+$primary-div-margin: auto;
+$primary-div-background: #000;
+
+
+// CTA
+$primary-cta-width: 10rem;
+$primary-cta-height: 4rem;
+$primary-cta-color: #fff;
+$primary-cta-color-hover: #fff;
+$primary-cta-color-active: #fff;
+$primary-cta-border: 2px solid #000;
+$primary-cta-borderradius: 2rem;
+$primary-cta-cursor: pointer;
+$primary-cta-outline: none;
+
+// Icon
+$primary-icon-width: 7.5rem;
+$primary-icon-height: 5rem;
+
+// #2 Secondary
+
+// CTA
+$secondary-cta-width: 6rem;
+$secondary-cta-height: 2rem;
+$secondary-cta-color: #fff;
+$secondary-cta-color-hover: #fff;
+$secondary-cta-color-active: #fff;
+$secondary-cta-border: none;
+$secondary-cta-borderradius: 1rem;
+$secondary-cta-cursor: pointer;
+$secondary-cta-outline: none;
+
+// Icon
+$secondary-icon-width: 5rem;
+$secondary-icon-height: 2.5rem;

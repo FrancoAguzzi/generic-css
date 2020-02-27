@@ -1,0 +1,20 @@
+// Base Mixins
+
+// Align elements with FlexBox
+@mixin displayFlex($flex-x, $flex-y, $flex-direction: row) {
+  display: flex;
+  flex-direction: $flex-direction;
+  @if ($flex-direction == row) {
+    justify-content: $flex-x;
+    align-items: $flex-y;
+  } @else {
+    justify-content: $flex-y;
+    align-items: $flex-x;
+  }
+}
+
+// Align text's X and Y to center
+@mixin textCenter($line-height) {
+  text-align: center;
+  line-height: $line-height;
+}

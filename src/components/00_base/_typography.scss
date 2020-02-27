@@ -1,0 +1,26 @@
+// Base Typography
+// Naming pattern: priority-element-property-state
+
+// Importing font family
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap");
+
+// Primary Font Styles
+$primary-font-color: #000;
+$primary-font-color-hover: #fff;
+$primary-font-size: 2rem;
+$primary-font-weight: 500;
+$primary-font-family: "Poppins", sans-serif;
+
+// Secondary Font Styles
+$secondary-font-color: #000;
+$secondary-font-color-hover: #fff;
+$secondary-font-size: 1.6rem;
+$secondary-font-weight: 700;
+$secondary-font-family: "Montserrat", sans-serif;
+
+// Tertiary Font Styles
+$tertiary-font-color: #000;
+$tertiary-font-color-hover: #fff;
+$tertiary-font-size: 1rem;
+$tertiary-font-weight: 400;
+$tertiary-font-family: "Montserrat", sans-serif;
