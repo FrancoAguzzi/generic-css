@@ -20,15 +20,21 @@
 }
 
 // Grid System 12 columns
-@mixin gridWrapper($grid-width) {
+@mixin gridWrapper($grid-width, $grid-height) {
   display: grid;
   margin: 0 auto;
   width: $grid-width;
+  height: $grid-height;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: minmax(1fr, auto);
 }
 
-@mixin gridElement($grid-column-start, $grid-column-end, $grid-row-start, $grid-row-end) {
-  grid-column: $grid-column-start / $grid-column-end;
-  grid-row: $grid-row-start / $grid-row-end;
+@mixin gridElement(
+  $grid-column-start,
+  $grid-column-end,
+  $grid-row-start,
+  $grid-row-end
+) {
+  grid-column: #{$grid-column-start} / #{$grid-column-end};
+  grid-row: #{$grid-row-start} / #{$grid-row-end};
 }

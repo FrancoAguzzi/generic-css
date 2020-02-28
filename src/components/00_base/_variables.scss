@@ -6,37 +6,46 @@
 // Div Container
 $primary-div-width: 80%;
 $primary-div-margin: 0 auto;
-$primary-div-background: #000;
-
+$primary-div-background: #333;
 
 // CTA
 $primary-cta-width: 10rem;
 $primary-cta-height: 4rem;
-$primary-cta-color: #fff;
+$primary-cta-color: #000;
 $primary-cta-color-hover: #fff;
-$primary-cta-color-active: #fff;
+$primary-cta-color-active: #333;
 $primary-cta-border: 2px solid #000;
 $primary-cta-borderradius: 2rem;
 $primary-cta-cursor: pointer;
 $primary-cta-outline: none;
+$primary-cta-textdecoration: none;
 
 // Icon
-$primary-icon-width: 7.5rem;
+$primary-icon-width: 5rem;
 $primary-icon-height: 5rem;
+
 
 // #2 Secondary
 
 // CTA
-$secondary-cta-width: 6rem;
+$secondary-cta-width: 5rem;
 $secondary-cta-height: 2rem;
-$secondary-cta-color: #fff;
+$secondary-cta-color: #000;
 $secondary-cta-color-hover: #fff;
-$secondary-cta-color-active: #fff;
+$secondary-cta-color-active: #000;
 $secondary-cta-border: none;
 $secondary-cta-borderradius: 1rem;
 $secondary-cta-cursor: pointer;
 $secondary-cta-outline: none;
+$secondary-cta-textdecoration: none;
 
 // Icon
-$secondary-icon-width: 5rem;
+$secondary-icon-width: 2.5rem;
 $secondary-icon-height: 2.5rem;
+
+
+// MOBILE VERSION
+
+@media (max-width: 768px) {
+    // mobile content variables
+}
